@@ -1,0 +1,79 @@
+.nav_box_hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+
+  .nav_btn_left {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(
+      --Button-gradient-20,
+      linear-gradient(
+        270deg,
+        rgba(77, 94, 246, 0.2) 0%,
+        rgba(246, 77, 77, 0.2) 100%
+      )
+    );
+  }
+
+  .nav_img {
+    height: 321px;
+    background-repeat: 18px;
+    object-fit: cover;
+  }
+
+  .nav_btn_right {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(
+      --Button-Gradient,
+      linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%)
+    );
+  }
+}
+
+.nav_box_down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 92px;
+
+  .nav_btn_left {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(
+      --Button-Gradient,
+      linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%)
+    );
+  }
+
+  .nav_btn_all {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border-radius: 16px;
+    background: var(
+      --Button-gradient-20,
+      linear-gradient(
+        270deg,
+        rgba(77, 94, 246, 0.2) 0%,
+        rgba(246, 77, 77, 0.2) 100%
+      )
+    );
+  }
+}
